@@ -34,6 +34,13 @@ Gate at level 30 produces statistically significantly better Day 7 retention (p 
 
 The effect is strongest among highly engaged players (40+ rounds): 50.93% vs 49.09% Day 7 retention — suggesting the earlier gate creates a natural engagement hook.
 
+## Business Insights
+1. Gate at level 30 retains 4.5% more players by Day 7 — statistically significant
+2. Engaged players (40+ rounds) show the biggest gap: 50.93% vs 49.09%
+3. ~4,000 players across both groups never played a single round — acquisition quality issue
+4. Day 1 retention drop between groups is small (0.59pp) but Day 7 gap widens — suggests gate_40 causes delayed churn
+5. Recommendation: keep gate at level 30, investigate why ~4k users churn before playing
+
 ## SQL Analysis
 Three queries were written in MySQL:
 1. Core group comparison — retention rates per group
